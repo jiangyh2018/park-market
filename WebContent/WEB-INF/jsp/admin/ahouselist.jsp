@@ -24,7 +24,7 @@
 <body>
 <div>
 <div class="result-title">
-<h1>房源列表</h1>
+<h1>停车位列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
 		action="ahouselist.action"

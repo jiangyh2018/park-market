@@ -80,7 +80,7 @@
 <body>
 
 <div class="result-title">
-<h1>添加房源</h1>
+<h1>添加停车位</h1>
 </div>
 <div class="result-content">
 <div class="sidebar-title">

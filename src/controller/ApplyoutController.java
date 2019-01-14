@@ -75,7 +75,7 @@ public class ApplyoutController {
 			model.addAttribute("error", "deletesucess");
 			return "redirect:findallapplyout.action";
 		}
-		//租客查看自己的 退房申请
+		//租客查看自己的 退停车位申请
 		@RequestMapping("/getmyapplyout")
 		public String getmyapplyout(Model model,HttpSession httpSession,@RequestParam(required=false,defaultValue="1") Integer page,
 	            @RequestParam(required=false,defaultValue="2") Integer pageSize){

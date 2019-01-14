@@ -72,10 +72,10 @@
         <div class="sidebar-content">
             <ul class="sidebar-list">
                 <li>
-                    <a class="a"><i class="icon-font">&#xe003;</i>房源信息</a>
+                    <a class="a"><i class="icon-font">&#xe003;</i>停车位信息</a>
                     <div class="p"><ul class="sub-menu">
-                        <li><a href="/text2/ahouselist.action"><i class="icon-font">&#xe008;</i>房源列表</a></li>
-                         <li><a href="/text2/toaddhouse.action"><i class="icon-font">&#xe008;</i>添加房源</a></li>
+                        <li><a href="/text2/ahouselist.action"><i class="icon-font">&#xe008;</i>停车位列表</a></li>
+                         <li><a href="/text2/toaddhouse.action"><i class="icon-font">&#xe008;</i>添加停车位</a></li>
        
                     </ul>
                     </div>
@@ -93,7 +93,7 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>申请列表</a>
         <div class="p">            <ul class="sub-menu">
-                        <li><a href="/text2/findapplylist.action"><i class="icon-font">&#xe037;</i>看房申请</a></li>
+                        <li><a href="/text2/findapplylist.action"><i class="icon-font">&#xe037;</i>看停车位申请</a></li>
                        	<li><a href="/text2/applyout/findallapplyout.action"><i class="icon-font">&#xe037;</i>退租申请</a></li>
                         
                     </ul>

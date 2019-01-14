@@ -29,7 +29,7 @@
 <body>
 	<div>
 		<div class="result-title">
-			<h1>看房申请列表</h1>
+			<h1>看停车位申请列表</h1>
 		</div>
 		<form id="houseForm" name="houseForm"
 			action="/text2/getmyapply.action" method=post>

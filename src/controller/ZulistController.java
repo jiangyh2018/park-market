@@ -42,7 +42,7 @@ public class ZulistController {
 	//管理员查看所有在租列表
 	@RequestMapping("/findzulist")
 	public String findzulist(Model model,@RequestParam(required=false,defaultValue="1") Integer page,
-            @RequestParam(required=false,defaultValue="2") Integer pageSize) throws Exception{
+            @RequestParam(required=false,defaultValue="10") Integer pageSize) throws Exception{
 		PageHelper.startPage(page, pageSize);
 		List<Zulist> zulist=zulistService.findzuuserlist();
 		PageInfo<Zulist> p=new PageInfo<Zulist>(zulist);
@@ -55,7 +55,7 @@ public class ZulistController {
 	//查看我的在租列表
 	@RequestMapping("/myzulist")
 	public String myzulist(Model model,HttpSession httpSession,@RequestParam(required=false,defaultValue="1") Integer page,
-            @RequestParam(required=false,defaultValue="2") Integer pageSize) throws Exception{
+            @RequestParam(required=false,defaultValue="10") Integer pageSize) throws Exception{
 	
 		User user1= (User) httpSession.getAttribute("user");
 		Userlist userlist=userlistService.findhasuserlist(user1.getId());

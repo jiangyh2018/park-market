@@ -24,7 +24,7 @@
 	var error="${param.error}";
 	if(error=="zusuccess"){
 
-	alert("该房已租赁，可在租赁列表中查看详情！");
+	alert("该停车位已租赁，可在租赁列表中查看详情！");
 	}else if(error=="checkoutsuccess"){
 		alert("该合同已被终止！");
 	}

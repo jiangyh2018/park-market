@@ -26,7 +26,7 @@
 
 	alert("你还没完善个人信息，请完善个人信息后再进行申请操作");
 	}else if(error=="applysuccess"){
-		alert("申请成功，请耐心等待房东联系您！");	
+		alert("申请成功，请耐心等待车主联系您！");	
 	}
 		
 	</script>
@@ -34,7 +34,7 @@
 <body>
 <div>
 <div class="result-title">
-<h1>房源列表</h1>
+<h1>停车位列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
 		action="houselist.action"
@@ -75,15 +75,15 @@
 										<c:choose>
 										<c:when test="${ houselist.status=='未租赁'}">
 													<a class="link-update"
-											href="applycheckuserlist.action?id=${houselist.id}">申请看房</a>
+											href="applycheckuserlist.action?id=${houselist.id}">申请看停车位</a>
 											&nbsp;&nbsp; 
 												</c:when >
 												<c:when test="${ houselist.status=='已租赁'}">
-													该房已被租赁
+													该停车位已被租赁
 											&nbsp;&nbsp; 
 												</c:when >
 												<c:otherwise>
-												    该房已被申请
+												    该停车位已被申请
 												</c:otherwise>
 										 </c:choose>
 										

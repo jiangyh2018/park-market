@@ -30,7 +30,7 @@ public class ApplyController {
 	private HouselistService houselistService;
 	@Autowired
 	private ApplyService applyService;
-	//申请看房
+	//申请看停车位
 	@RequestMapping("/applycheckuserlist")
 	public String applycheckuserlist(HttpSession httpSession,Model model,Integer id){
 		User user1= (User) httpSession.getAttribute("user");
@@ -59,7 +59,7 @@ public class ApplyController {
 		}
 		
 	}
-	//管理员查看申请看房列表
+	//管理员查看申请看停车位列表
 	@RequestMapping("/findapplylist")
 	public String findapplylist(Model model,@RequestParam(required=false,defaultValue="1") Integer page,
             @RequestParam(required=false,defaultValue="2") Integer pageSize) throws Exception{
@@ -87,7 +87,7 @@ public class ApplyController {
 		
 		return "";
 	}
-	//管理员拒绝看房申请
+	//管理员拒绝看停车位申请
 	@RequestMapping("/refuseapply")
 	public String refuseapply(String house_id,Model model){
 		Houselist houselist=new Houselist();
@@ -98,7 +98,7 @@ public class ApplyController {
 		return "redirect:findapplylist.action";
 	}
 	
-	//租客查看自己的 看房申请
+	//租客查看自己的 看停车位申请
 	@RequestMapping("/getmyapply")
 	public String getmyapply(Model model,HttpSession httpSession,@RequestParam(required=false,defaultValue="1") Integer page,
             @RequestParam(required=false,defaultValue="2") Integer pageSize){

@@ -25,7 +25,7 @@ public class HoustlistController {
 	
 	@RequestMapping("/houselist")
 	public String houselist(Model model ,@RequestParam(required=false,defaultValue="1") Integer page,
-            @RequestParam(required=false,defaultValue="2") Integer pageSize){
+            @RequestParam(required=false,defaultValue="10") Integer pageSize){
 		
 		 PageHelper.startPage(page, pageSize);
 		List<Houselist> houselist=houselistService.selectAll();
@@ -39,7 +39,7 @@ public class HoustlistController {
 	}
 	@RequestMapping("/ahouselist")
 	public String ahouselist(Model model ,@RequestParam(required=false,defaultValue="1") Integer page,
-            @RequestParam(required=false,defaultValue="2") Integer pageSize){
+            @RequestParam(required=false,defaultValue="10") Integer pageSize){
 		
 		 PageHelper.startPage(page, pageSize);
 		List<Houselist> houselist=houselistService.selectAll();

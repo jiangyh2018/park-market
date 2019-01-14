@@ -1,8 +1,8 @@
 # house
 基于ssm的停车位租赁管理系统
 功能介绍
-房源信息模块： 
-房源信息展示、房源信息更新、房源信息增加、房源信息删除    
+停车位信息模块： 
+停车位信息展示、停车位信息更新、停车位源信息增加、停车位源信息删除    
 账户管理模块： 
 账户登录、账户绑定、账户管理   
 租金结算模块： 
@@ -22,18 +22,5 @@
 
 服务器：
 Tomcat服务器部署
-
-
-项目功能部分截图
-登录
-管理员帐户:admin 密码：12345
-租客帐户：zyx 密码：123456
-
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/1.png)
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/2.png)
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/3.png)
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/4.png)
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/5.png)
-![Alt text](https://github.com/chiuwingyan/house/blob/master/img/6.png)
 
 # park-market

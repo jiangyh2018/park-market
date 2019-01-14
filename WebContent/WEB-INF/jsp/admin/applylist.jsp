@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="result-title">
-<h1>申请看房列表</h1>
+<h1>申请看停车位列表</h1>
 </div>
 
 <div>

@@ -23,7 +23,7 @@
 			<div><input type="password" name="password" placeholder="密码" ></div>
 			<div>
 		<label class="radio inline">
-      	  	<input id="admin" type="radio" name="type" value="admin"  checked/> 管理员
+      	  	<input id="admin" type="radio" name="type" value="admin"  checked/> 车主
 		</label>
 		<label class="radio inline">
 			<input id="zuke" type="radio" name="type" value="zuke" } /> 租客
