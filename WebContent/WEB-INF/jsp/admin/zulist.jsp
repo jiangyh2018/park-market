@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -37,7 +37,7 @@
 <h1>在租列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/zulist/findzulist.action"
+		action="/parkMaster/zulist/findzulist.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -74,11 +74,11 @@
 										<td>${zulist.userlist.idcard}</td>
 										<td>${zulist.userlist.phone}</td>
 										<td><a class="link-update"
-											href="/text2/hetong/seehetong.action?house_id=${zulist.house_id }">查看合同</a>
+											href="/parkMaster/hetong/seehetong.action?house_id=${zulist.house_id }">查看合同</a>
 											&nbsp;&nbsp; 
 											
 											<a class="link-del"
-											 href="/text2/hetong/deletehetong.action?house_id=${zulist.house_id }"
+											 href="/parkMaster/hetong/deletehetong.action?house_id=${zulist.house_id }"
 											onclick="return window.confirm('确定要终止合同吗？')">终止合同</a></td>
 										
 										

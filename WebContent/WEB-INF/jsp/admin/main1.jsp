@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
      <style>
    
     a:hover{
@@ -59,7 +59,7 @@
             <ul class="top-info-list clearfix">
                 <li>欢迎您，${sessionScope.user.username}！</li>
                 
-                <li><a href="javascript:if(confirm('确实要退出登录吗?'))location='/text2/login.action'">退出</a></li>
+                <li><a href="javascript:if(confirm('确实要退出登录吗?'))location='/parkMaster/login.action'">退出</a></li>
             </ul>
         </div>
     </div>
@@ -74,8 +74,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe003;</i>停车位信息</a>
                     <div class="p"><ul class="sub-menu">
-                        <li><a href="/text2/ahouselist.action"><i class="icon-font">&#xe008;</i>停车位列表</a></li>
-                         <li><a href="/text2/toaddhouse.action"><i class="icon-font">&#xe008;</i>添加停车位</a></li>
+                        <li><a href="/parkMaster/ahouselist.action"><i class="icon-font">&#xe008;</i>停车位列表</a></li>
+                         <li><a href="/parkMaster/toaddhouse.action"><i class="icon-font">&#xe008;</i>添加停车位</a></li>
        
                     </ul>
                     </div>
@@ -83,9 +83,9 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>租赁及合同信息</a>
              <div class="p">         <ul class="sub-menu">
-                        <li><a href="/text2/zulist/findzulist.action"><i class="icon-font">&#xe017;</i>在租列表</a></li>
+                        <li><a href="/parkMaster/zulist/findzulist.action"><i class="icon-font">&#xe017;</i>在租列表</a></li>
                       
-                        <li><a href="/text2/checkout/getallcheckout.action"><i class="icon-font">&#xe037;</i>已退租列表</a></li>
+                        <li><a href="/parkMaster/checkout/getallcheckout.action"><i class="icon-font">&#xe037;</i>已退租列表</a></li>
                         
                     </ul>
                     </div>
@@ -93,8 +93,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>申请列表</a>
         <div class="p">            <ul class="sub-menu">
-                        <li><a href="/text2/findapplylist.action"><i class="icon-font">&#xe037;</i>看停车位申请</a></li>
-                       	<li><a href="/text2/applyout/findallapplyout.action"><i class="icon-font">&#xe037;</i>退租申请</a></li>
+                        <li><a href="/parkMaster/findapplylist.action"><i class="icon-font">&#xe037;</i>看停车位申请</a></li>
+                       	<li><a href="/parkMaster/applyout/findallapplyout.action"><i class="icon-font">&#xe037;</i>退租申请</a></li>
                         
                     </ul>
                      </div>
@@ -102,8 +102,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>报障模块</a>
        <div class="p">              <ul class="sub-menu">
-                        <li><a href="/text2/wrong/wronglist.action"><i class="icon-font">&#xe017;</i>待处理报障</a></li>
-                       	<li><a href="/text2/wrong/selectall.action"><i class="icon-font">&#xe017;</i>已处理报障</a></li>
+                        <li><a href="/parkMaster/wrong/wronglist.action"><i class="icon-font">&#xe017;</i>待处理报障</a></li>
+                       	<li><a href="/parkMaster/wrong/selectall.action"><i class="icon-font">&#xe017;</i>已处理报障</a></li>
                         
                     </ul>
                      </div>
@@ -111,9 +111,9 @@
                  <li>
                     <a class="a"><i class="icon-font">&#xe003;</i>租金信息</a>
             <div class="p">          <ul class="sub-menu">
-                    <li><a href="/text2/paid/showaddpaid.action"><i class="icon-font">&#xe008;</i>我要收租</a></li>
-                        <li><a href="/text2/paid/topaidlist.action"><i class="icon-font">&#xe008;</i>租客待缴租金</a></li>
-                        <li><a href="/text2/paid/selectall.action"><i class="icon-font">&#xe008;</i>租客已缴租金</a></li>
+                    <li><a href="/parkMaster/paid/showaddpaid.action"><i class="icon-font">&#xe008;</i>我要收租</a></li>
+                        <li><a href="/parkMaster/paid/topaidlist.action"><i class="icon-font">&#xe008;</i>租客待缴租金</a></li>
+                        <li><a href="/parkMaster/paid/selectall.action"><i class="icon-font">&#xe008;</i>租客已缴租金</a></li>
        
                     </ul>
                      </div>
@@ -121,8 +121,8 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>我的日程</a>
             <div class="p">          <ul class="sub-menu">
-                        <li><a href="/text2/schedule/selectAll.action"><i class="icon-font">&#xe017;</i>查看日程</a></li>
-                       	<li><a href="/text2/schedule/toinsert.action"><i class="icon-font">&#xe017;</i>添加日程</a></li>
+                        <li><a href="/parkMaster/schedule/selectAll.action"><i class="icon-font">&#xe017;</i>查看日程</a></li>
+                       	<li><a href="/parkMaster/schedule/toinsert.action"><i class="icon-font">&#xe017;</i>添加日程</a></li>
                         
                     </ul>
                      </div>
@@ -130,7 +130,7 @@
                 <li>
                     <a class="a"><i class="icon-font">&#xe018;</i>其他操作</a>
                <div class="p">      <ul class="sub-menu">
-                        <li><a href="/text2/findalluserlist.action"><i class="icon-font">&#xe017;</i>账户管理</a></li>
+                        <li><a href="/parkMaster/findalluserlist.action"><i class="icon-font">&#xe017;</i>账户管理</a></li>
                        
                         
                     </ul>

@@ -9,13 +9,13 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-ui-datepicker.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/text2/css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-ui-datepicker.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/jquery-ui.css"/>
    <style>
    
 
@@ -142,7 +142,7 @@
 </div>
 <div class="result-content">
 <div class="sidebar-title">
-        <form action="/text2/hetong/inserthetong.action" method="post" id="myform" name="myform" enctype="multipart/form-data" >
+        <form action="/parkMaster/hetong/inserthetong.action" method="post" id="myform" name="myform" enctype="multipart/form-data" >
                     <table class="insert-tab" width="100%">
                         <tbody>
                                 <th><i class="require-red">*</i>停车位id：</th>

@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -35,7 +35,7 @@
 <h1>待处理报障</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/wrong/wronglist.action"
+		action="/parkMaster/wrong/wronglist.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -73,7 +73,7 @@
 										<td>${wrong.detail}</td>
 										<td>${wrong.status}</td>
 										<td><a class="link-update"
-											href="/text2/wrong/gotosolve.action?id=${wrong.id }" 
+											href="/parkMaster/wrong/gotosolve.action?id=${wrong.id }" 
 											onclick="return window.confirm('确定你已处理此报障？')">已处理</a>
 											&nbsp;&nbsp; 
 											

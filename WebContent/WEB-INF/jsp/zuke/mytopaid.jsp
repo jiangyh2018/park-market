@@ -11,13 +11,13 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-   <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-ui-datepicker.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/text2/css/jquery-ui.css"/>
+   <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-ui-datepicker.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/jquery-ui.css"/>
 	</script>
 	<style type="text/css">
 	.sum{
@@ -40,7 +40,7 @@
 <div class="result-title">
 <h1>待缴租金列表</h1>
 </div>
-                <form action="/text2/paid/mytopaidlist.action" method="post" name="myform">
+                <form action="/parkMaster/paid/mytopaidlist.action" method="post" name="myform">
                   
                 
             
@@ -85,7 +85,7 @@
 										<td>${topaid.status}</td>
 										
 										<td><a class="link-update"
-											href="/text2/paid/gotopay.action?id=${topaid.id }"
+											href="/parkMaster/paid/gotopay.action?id=${topaid.id }"
 											onclick="return window.confirm('确定要支付吗?')">支付租金</a>
 											&nbsp;&nbsp; </td>
 										

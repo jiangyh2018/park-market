@@ -5,13 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-ui-datepicker.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/text2/css/jquery-ui.css"/>
+<link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-ui-datepicker.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/jquery-ui.css"/>
     <style type="text/css">
     .title{
       margin:10px auto;
@@ -32,7 +32,7 @@
 </head>
 <body>
 <div><br />
-	<form name="hetong" action="/text2/hetong/updatehetong.action">
+	<form name="hetong" action="/parkMaster/hetong/updatehetong.action">
 	<div class="title">停车位租赁合同</div>
 	<input type="hidden" name="house_id" value="${hetong.house_id}"/>
 	<p>出租方：<span name="chuzu">${hetong.chuzu}</span>（以下简称甲方）；</p>　　　

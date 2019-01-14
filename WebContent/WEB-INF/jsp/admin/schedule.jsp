@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -29,7 +29,7 @@
 
 <div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/schedule/selectAll.action"
+		action="/parkMaster/schedule/selectAll.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -60,11 +60,11 @@
 										
 										<td>
 										<a class="link-update"
-											href="/text2/schedule/toupdate.action?id=${schedule.id}">修改</a>
+											href="/parkMaster/schedule/toupdate.action?id=${schedule.id}">修改</a>
 											&nbsp;&nbsp; 
 											<input type="hidden" name="id" value="${houselist.id}"/>
 											<a class="link-del"
-											 href="/text2/schedule/deleteschedule.action?id=${schedule.id}"
+											 href="/parkMaster/schedule/deleteschedule.action?id=${schedule.id}"
 											 onclick="return window.confirm('确定删除吗？')"
 											>删除</a></td>
 										

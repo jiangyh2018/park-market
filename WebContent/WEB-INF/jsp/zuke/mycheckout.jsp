@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -34,7 +34,7 @@
 <h1>已退租列表</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/checkout/getmycheckout.action"
+		action="/parkMaster/checkout/getmycheckout.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -77,7 +77,7 @@
 										<td>
 											
 											<a class="link-del"
-											 href="/text2/checkout/deletecheckout.action?id=${checkout.id }"
+											 href="/parkMaster/checkout/deletecheckout.action?id=${checkout.id }"
 											onclick="return window.confirm('确定要删除该记录吗？')">删除</a></td>
 										
 										</tr>

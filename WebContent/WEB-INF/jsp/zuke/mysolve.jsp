@@ -11,13 +11,13 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-   <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery-ui-datepicker.js"></script>
-    <script type="text/javascript" src="/text2/js/jquery.validate.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/text2/css/jquery-ui.css"/>
+   <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery-ui-datepicker.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/jquery.validate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/jquery-ui.css"/>
 	</script>
 	<style type="text/css">
 	.sum{
@@ -42,7 +42,7 @@
 </div>
 <div class="search-wrap">
             <div class="search-content">
-                <form action="/text2/wrong/findmysolve.action" method="post" name="myform">
+                <form action="/parkMaster/wrong/findmysolve.action" method="post" name="myform">
                     <table class="search-tab">
                         <tr>
                             
@@ -98,7 +98,7 @@
 										<td>
 										
 													<a class="link-update"
-											href="/text2/wrong/deletesolve.action?id=${solve.id}"
+											href="/parkMaster/wrong/deletesolve.action?id=${solve.id}"
 											onclick="return window.confirm('确定删除吗？')">删除</a>
 											&nbsp;&nbsp; 
 												

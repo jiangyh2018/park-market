@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -36,7 +36,7 @@
 <h1>退租申请</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/applyout/findallapplyout.action"
+		action="/parkMaster/applyout/findallapplyout.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -80,17 +80,17 @@
 										<c:choose>
 										<c:when test="${applyout.status=='申请中'}">
 										<a class="link-update"
-											href="/text2/applyout/agreeapplyout.action?id=${applyout.id }"
+											href="/parkMaster/applyout/agreeapplyout.action?id=${applyout.id }"
 											onclick="return window.confirm('确定要同意退租吗？')">同意</a>
 											&nbsp;&nbsp; 
 											
 											<a class="link-del"
-											 href="/text2/applyout/refuseapplyout.action?id=${applyout.id }"
+											 href="/parkMaster/applyout/refuseapplyout.action?id=${applyout.id }"
 											onclick="return window.confirm('确定要拒绝吗？')">拒绝</a>
 											</c:when >
 											<c:otherwise>
 												 <a class="link-del"
-											 href="/text2/applyout/deleteapplyout.action?id=${applyout.id}"
+											 href="/parkMaster/applyout/deleteapplyout.action?id=${applyout.id}"
 											onclick="return window.confirm('确定要删除该记录吗？')">删除</a>
 												</c:otherwise>
 										 </c:choose>

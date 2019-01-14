@@ -11,10 +11,10 @@
 <head>
 <meta charset="UTF-8">
 <title>停车位租赁系统</title>
-<link rel="stylesheet" type="text/css" href="/text2/css/common.css" />
-<link rel="stylesheet" type="text/css" href="/text2/css/main.css" />
-<script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css" />
+<script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 </script>
 <style type="text/css">
 </style>
@@ -32,7 +32,7 @@
 			<h1>退租申请列表</h1>
 		</div>
 		<form id="houseForm" name="houseForm"
-			action="/text2/applyout/getmyapplyout.action" method=post>
+			action="/parkMaster/applyout/getmyapplyout.action" method=post>
 			<div class="result-title">
 				<div class="result-list"></div>
 			</div>
@@ -72,7 +72,7 @@
 								    <td> 
 								    <c:if test="${ applyout.status!='申请中'}">
 													<a class="link-update"
-											href="/text2/applyout/deleteapplyout.action?id=${applyout.id}"
+											href="/parkMaster/applyout/deleteapplyout.action?id=${applyout.id}"
 											onclick="return window.confirm('确定要删除该记录吗？')"
 											>删除</a>
 											&nbsp;&nbsp; 

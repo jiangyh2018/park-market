@@ -11,10 +11,10 @@
 <head>
     <meta charset="UTF-8">
     <title>停车位租赁系统</title>
-    <link rel="stylesheet" type="text/css" href="/text2/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/text2/css/main.css"/>
-    <script type="text/javascript" src="/text2/js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/text2/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/parkMaster/css/main.css"/>
+    <script type="text/javascript" src="/parkMaster/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/parkMaster/js/libs/modernizr.min.js"></script>
 	</script>
 	<style type="text/css">
 	
@@ -35,7 +35,7 @@
 <h1>我要收租</h1>
 </div>
 	<form id="houseForm" name="houseForm"
-		action="/text2/paid/showaddpaid.action"
+		action="/parkMaster/paid/showaddpaid.action"
 		method=post >
 						 <div class="result-title">
                     <div class="result-list">
@@ -72,7 +72,7 @@
 										<td>${zulist.userlist.idcard}</td>
 										<td>${zulist.userlist.phone}</td>
 										<td><a class="link-update"
-											href="/text2/paid/addpaid.action?id=${zulist.zid }">收租</a>
+											href="/parkMaster/paid/addpaid.action?id=${zulist.zid }">收租</a>
 											&nbsp;&nbsp; 
 											
 											
